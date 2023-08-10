@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <form action="Deactivate.html" target="_blank">
+        <fieldset>
+            <Legend>Enter Details</Legend>
+            <label for="id">Username:</label>
+            <input type="text" id="id" value="Hemanth Reddy" required><br>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" value="#hemanth" required><br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob"required>
+        </fieldset>
+        <fieldset>
+            <legend>Security Question</legend>
+            <label for="sq">Select a Question:</label>
+            <select name="Select a Question:" id="sq">
+                    <option value="1">What is your pet name?</option>
+                    <option value="2">In which city you were born?</option>
+                    <option value="3">What is your Favourite Color?</option>
+            </select> <br>
+            <label for="ans">Answer Field:</label>
+            <input type="text" id="ans" required>
+        </fieldset>
+        <fieldset>
+            <legend>Reason for Deactivation</legend>
+            <label for="co">Comments:</label><br>
+            <textarea name="Comments" id="co" cols="50" rows="10" required></textarea>
+        </fieldset>
+        <input type="submit" style="color: azure;background-color: blue;">
+        <input type="reset">
+    </fieldset>
+
+    </form>
+</body>
+</html>
